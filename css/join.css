@@ -1,0 +1,56 @@
+/* Add this to your join.css file */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* light gray background */
+  }
+  
+  .container {
+    max-width: 800px; /* adjust the width to your liking */
+    margin: 40px auto; /* center the container */
+    padding: 20px;
+    background-color: #fff; /* white background */
+    border: 1px solid #ddd; /* light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  .stage {
+    margin-bottom: 20px; /* add some space between stages */
+  }
+  
+  .stage h2 {
+    color: #333; /* darker text color */
+  }
+  
+  button {
+    background-color: #4CAF50; /* green button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41; /* darker green on hover */
+  }
+  
+  #quiz {
+    margin-top: 40px; /* add some space between the waterfall model and quiz */
+  }
+  
+  #quiz-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #quiz-form input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666; /* darker text color */
+  }
