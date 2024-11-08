@@ -24,11 +24,13 @@ app.post('/signup', async (req, res) => {
   const hashedPassword = await bcrypt.hash(password, 10);
   users.push({ email, password: hashedPassword });
   res.json({ message: "User  signed up successfully" });
+  console.log("Login attempt for:", email);
 });
 
 // Route for login
 app.post('/login', async (req, res) => {
   const { email, password } = req.body;
+  console.log("Login attempt for:", email);
 
   // Find user
   const user = users.find(user => user.email === email);
